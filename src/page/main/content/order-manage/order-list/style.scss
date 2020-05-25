@@ -1,0 +1,62 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/2/27
+ * Time: 15:32
+ */
+.fei-orderlist{
+  padding: 0 20px;
+  height: 100%;
+  width: 100%;
+
+  .search-box{
+    background: rgba(255,255,255,1);
+    padding: 30px 20px;
+    font-size: 12px;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 20px;
+
+    .row-1{
+      height: 28px;
+
+      .row-1-btn{
+        height: inherit;
+        margin-right: 12px;
+        font-size: 12px;
+      }
+      .row-1-btn-selected{
+        background: #03A861!important;
+        color: white!important;
+      }
+    }
+    .row-2{
+        margin-top: 16px;
+        height: 36px;
+
+        .ant-col-5{
+          text-align: left;
+        }
+        .date-range-left>div:after{
+          content: '-';
+          position: absolute;
+          top: 15%;
+          padding-left: 9px;
+        }
+        >div{
+          height: 36px;
+          line-height: 36px;
+
+          input{
+            font-size: 12px;
+          }
+          input::-webkit-input-placeholder {
+            font-size: 10px;
+          }
+          button{
+            font-size: 12px;
+          }
+        }
+    }
+  }
+}

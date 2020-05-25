@@ -1,0 +1,140 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/3/22
+ * Time: 11:49
+ */
+.fei-store-album-box{
+  padding: 0 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+
+  .fei-store-album-title{
+    background: rgba(255,255,255,1);
+    padding: 30px 20px;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+
+    .ant-divider, .ant-divider-vertical{
+      height: 100%;
+      margin: 0;
+    }
+
+    .ant-form-item, .tab{
+      margin-bottom: 15px;
+    }
+
+    .tab-btn {
+      color: #03A861;
+      background: #fff;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    .tab-btn-selected {
+      background: #03A861;
+      color: #fff;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    .type-btn {
+      padding-right: 30px;
+      cursor: pointer;
+      color: #333;
+    }
+
+    .type-btn-selected {
+      padding-right: 30px;
+      cursor: pointer;
+      color: #03A861;
+    }
+
+    .album-title-left{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .album-title-right{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  .fei-store-album-content{
+
+    >div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      justify-items: center;
+      width: 100%;
+      box-sizing: border-box;
+      background: #fff;
+      margin-top: -45px;
+      padding-right: 20px;
+      padding-bottom: 125px;
+      min-height: 300px;
+
+      .img-box, .video-box{
+        cursor: pointer;
+        width: 20%;
+        height: 180px;
+        padding-top: 20px;
+        padding-left: 20px;
+        position: relative;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+
+        >div:nth-child(1){
+          position: relative;
+          border: 1px solid #f8f8f8;
+          border-radius: 5px;
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+          img, video{
+            width: 100%;
+            height: 100%;
+          }
+
+          .video-play-btn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 50px;
+            width: 50px;
+            transform: translate(-50%, -50%);
+          }
+        }
+        >div:nth-child(2){
+          position: relative;
+          bottom: 30px;
+          width: 100%;
+          font-size: 14px;
+          color: #fff;
+          background: rgba(0,0,0,1);
+          opacity:0.52;
+          height: 30px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          border-radius: 0 0 5px 5px;
+
+          >span:hover{
+            color: #03A861;
+          }
+        }
+      }
+    }
+  }
+}

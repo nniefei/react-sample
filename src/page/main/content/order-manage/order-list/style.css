@@ -1,0 +1,47 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/2/27
+ * Time: 15:32
+ */
+.fei-orderlist {
+  padding: 0 20px;
+  height: 100%;
+  width: 100%; }
+  .fei-orderlist .search-box {
+    background: white;
+    padding: 30px 20px;
+    font-size: 12px;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 20px; }
+    .fei-orderlist .search-box .row-1 {
+      height: 28px; }
+      .fei-orderlist .search-box .row-1 .row-1-btn {
+        height: inherit;
+        margin-right: 12px;
+        font-size: 12px; }
+      .fei-orderlist .search-box .row-1 .row-1-btn-selected {
+        background: #03A861 !important;
+        color: white !important; }
+    .fei-orderlist .search-box .row-2 {
+      margin-top: 16px;
+      height: 36px; }
+      .fei-orderlist .search-box .row-2 .ant-col-5 {
+        text-align: left; }
+      .fei-orderlist .search-box .row-2 .date-range-left > div:after {
+        content: '-';
+        position: absolute;
+        top: 15%;
+        padding-left: 9px; }
+      .fei-orderlist .search-box .row-2 > div {
+        height: 36px;
+        line-height: 36px; }
+        .fei-orderlist .search-box .row-2 > div input {
+          font-size: 12px; }
+        .fei-orderlist .search-box .row-2 > div input::-webkit-input-placeholder {
+          font-size: 10px; }
+        .fei-orderlist .search-box .row-2 > div button {
+          font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

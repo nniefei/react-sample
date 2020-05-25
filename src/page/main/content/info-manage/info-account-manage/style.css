@@ -1,0 +1,19 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/3/14
+ * Time: 17:05
+ */
+.fei-info-account {
+  padding: 0 20px;
+  height: 100%;
+  width: 100%; }
+  .fei-info-account .simulation-simple-form {
+    padding: 20px;
+    background: #fff; }
+    .fei-info-account .simulation-simple-form thead {
+      display: none; }
+  .fei-info-account > .simulation-simple-form:last-child {
+    margin-bottom: 80px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+{
+  "pageNum": 2,
+  "pageSize": 5,
+  "totalNum": 100,
+  "data": [
+    {
+      "id": "111111",
+      "name": "商品名称1",
+      "date": 1552620464719,
+      "price": "100",
+      "saleNum": "10",
+      "storeNum": "1000",
+      "status": "1"
+    },
+    {
+      "id": "2222222",
+      "name": "商品名称2",
+      "date": 1552620464729,
+      "price": "200",
+      "saleNum": "10",
+      "storeNum": "1000",
+      "status": "2"
+    },
+    {
+      "id": "3333333",
+      "name": "商品名称3",
+      "date": 1552620464739,
+      "price": "300",
+      "saleNum": "10",
+      "storeNum": "1000",
+      "status": "3"
+    },
+    {
+      "id": "4444444",
+      "name": "商品名称4",
+      "date": 1552620464749,
+      "price": "400",
+      "saleNum": "10",
+      "storeNum": "1000",
+      "status": "4"
+    },
+    {
+      "id": "5555555",
+      "name": "商品名称5",
+      "date": 1552620464759,
+      "price": "500",
+      "saleNum": "10",
+      "storeNum": "1000",
+      "status": "1"
+    }
+  ]
+}

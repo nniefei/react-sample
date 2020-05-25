@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "key": "sub1",
+      "name": "后台首页",
+      "path": "",
+      "icon": "../../static/image/sider/sider1.png",
+      "children": [
+        {
+          "key": "sub11",
+          "name": "我的首页",
+          "path": "/main/mypage",
+          "icon": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "sub2",
+      "name": "订单管理",
+      "path": "",
+      "icon": "../../static/image/sider/sider2.png",
+      "children": [
+        {
+          "key": "sub21",
+          "name": "订单列表",
+          "path": "/main/order/list",
+          "icon": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "sub3",
+      "name": "商品管理",
+      "path": "",
+      "icon": "../../static/image/sider/sider3.png",
+      "children": [
+        {
+          "key": "sub31",
+          "name": "商品发布",
+          "path": "/main/goods/publish",
+          "icon": "",
+          "children": []
+        },
+        {
+          "key": "sub32",
+          "name": "商品列表",
+          "path": "/main/goods/list",
+          "icon": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "sub4",
+      "name": "信息管理",
+      "path": "",
+      "icon": "../../static/image/sider/sider4.png",
+      "children": [
+        {
+          "key": "sub41",
+          "name": "账号管理",
+          "path": "/main/info/account/manage",
+          "icon": "",
+          "children": []
+        },
+        {
+          "key": "sub42",
+          "name": "门店信息",
+          "path": "/main/stores/info",
+          "icon": "",
+          "children": []
+        },
+        {
+          "key": "sub43",
+          "name": "门店相册",
+          "path": "/main/stores/album",
+          "icon": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "sub5",
+      "name": "财务管理",
+      "path": "",
+      "icon": "../../static/image/sider/sider5.png",
+      "children": [
+        {
+          "key": "sub51",
+          "name": "账户管理",
+          "path": "/main/financial/account/manage",
+          "icon": "",
+          "children": []
+        },
+        {
+          "key": "sub52",
+          "name": "结算中心",
+          "path": "/main/clearing/center",
+          "icon": "",
+          "children": []
+        },
+        {
+          "key": "sub53",
+          "name": "提现记录",
+          "path": "/main/withdrawal/records",
+          "icon": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "sub6",
+      "name": "评价管理",
+      "path": "",
+      "icon": "../../static/image/sider/sider6.png",
+      "children": [
+        {
+          "key": "sub61",
+          "name": "门店评价",
+          "path": "/main/stores/valuation",
+          "icon": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

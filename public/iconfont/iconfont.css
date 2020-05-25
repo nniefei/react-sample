@@ -1,0 +1,25 @@
+@font-face {font-family: "anticon-settled";
+  src: url('iconfont.eot?t=1552471005255'); /* IE9 */
+  src: url('iconfont.eot?t=1552471005255#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQUAAsAAAAACKgAAAPHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEOINhATYCJAMMCwgABCAFhUEHORt+BxEVnEPJfh5kbl6aVfGcIsJxdnfm182KaLzvQZA2c3WSgU4PzGGi6t8BtCffhQ1hmJ4rgoqpcgMElPUOYhPX6giMiTq3KM8+efSF6VLp0zz9zzHTJQ48/xoAMlojBfcGOu+8wr3RCUfRAflZxK72AviYrOsQgJMMyhBdu/cdih2FM08AYu6sGZOwf+hQFcUCOwIr2KoQO7FgNxqNO8CO+O3FR2qEHQwsEmfpwOndptLxjfVto9wY2WhsiIA/nAWQdoEEygAFYjy0jUSmsTIkTkOmqrOtKATGUMFIhJhnKqwL/cczQFhxCt0AFJHUOCi+z4KAt41cknP8DrCyxE3gFVPFdb2FqvBkZWXnrPE1xfkw9gby3EdDwrIpXOjxJu5zecObjjphudPddB218YYL3OhWptw0xnc4bube/UeOJc7xN08QI7zhVOELJQwtaArEJ8eN2hd0dfKI4cP28ZGEZX7X6JJ0Z1OAYcN94Qkb44cN9QWS2BeMH5HvDScsFtOeOHTEppDTuTcQNzI+aW/QVTjMH04Uzd8VI/ybVvicecP/b2R/0DVs6N6N8WKfN3HE0I0THJc4JiHVX73pzLbcddW2fD2MO0yLcu43jZmSLOkmWbtVFsbanOfZDdnPc37l3KGlqm3vn9h4j5W2yoXRK/D0oQ3owTkpuu7179BxOjoKh1ltpuj8KHYEzr4suFn0qroIgcWsep1kApqtgXNf8u+xKbqB14Oz273kR5h5urY1LwteBs6yLSpfpzyoMrFFRfc3LOqXeF2nU7IH68109Kui9LRmM+q3eJ2nU2Imm5s5duZV0StoxZfAOXZG5ZtJutrEodmZiDNTjjX+E5GXZPs3/TeM+Tmy1QTd9rfdpQB4fPLXi9gTUTRzgP0+2AW8V37DNmUKHb1UOs/n2XbJloIHA4gjy3mbpQAxvOyuiG9cCAJNfA4GNvJAoilFKmxrsOCiF1jRDAUnpUzZ7SKW7UiEcgAlHOBAkMFtMDB5D5IM/iIUTsSDhQRRK7EibC/QXHw2HHl165cHhhJY0v80mRSdF5WLisJ+qyoQ8bCvGL69YlDNxn+Cy9SLurqFyRdE8PBLys/QizhynAI9cw8UeJ8oc5phpB5F8r1pnHGn2qSwunjAQBFgEe0fmRhJ5MKYuFCxkBEqBWzCd/k4r2DwzVO4WQMVmZ+AFZlLgyGdWtsc+SKLXapuIbf4Meib7XKIw5KAPG8qEzwvkSzjSTMwRG3sEMnuGrebayqrl6EIb6IPcHLOlhlCCsVudpLT17eKeYrDagUA') format('woff2'),
+  url('iconfont.woff?t=1552471005255') format('woff'),
+  url('iconfont.ttf?t=1552471005255') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1552471005255#anticon-settled') format('svg'); /* iOS 4.1- */
+}
+
+.anticon-settled {
+  font-family: "anticon-settled" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anticonedit:before {
+  content: "\e606";
+}
+
+.anticonquanping:before {
+  content: "\e789";
+}
+

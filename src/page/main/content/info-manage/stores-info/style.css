@@ -1,0 +1,59 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/3/21
+ * Time: 15:40
+ */
+.store-info-box {
+  width: 100%;
+  height: 100%;
+  padding: 20px; }
+  .store-info-box .form-box {
+    padding: 20px;
+    background: white; }
+    .store-info-box .form-box .ant-form-item {
+      margin-bottom: 12px; }
+    .store-info-box .form-box .form-title {
+      font-size: 16px; }
+    .store-info-box .form-box .form-content {
+      padding-top: 20px; }
+      .store-info-box .form-box .form-content .dynamic-delete-button {
+        cursor: pointer;
+        position: relative;
+        top: 4px;
+        left: 15px;
+        font-size: 24px;
+        color: #999;
+        transition: all .3s; }
+      .store-info-box .form-box .form-content .dynamic-delete-button:hover {
+        color: #777; }
+      .store-info-box .form-box .form-content .dynamic-delete-button[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5; }
+  .store-info-box .store-location {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background: white; }
+    .store-info-box .store-location .location-title {
+      font-size: 16px; }
+    .store-info-box .store-location .form-content {
+      padding-top: 20px; }
+      .store-info-box .store-location .form-content .dynamic-delete-button {
+        cursor: pointer;
+        position: relative;
+        top: 4px;
+        left: 15px;
+        font-size: 24px;
+        color: #999;
+        transition: all .3s; }
+      .store-info-box .store-location .form-content .dynamic-delete-button:hover {
+        color: #777; }
+      .store-info-box .store-location .form-content .dynamic-delete-button[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5; }
+    .store-info-box .store-location .action-bar {
+      padding-bottom: 80px; }
+
+/*# sourceMappingURL=style.css.map */

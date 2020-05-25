@@ -1,0 +1,214 @@
+{
+  "pageNum": 2,
+  "pageSize": 5,
+  "totalNum": 100,
+  "data": [
+    {
+      "categoryId": "1",
+      "categoryName": "商品分类1",
+      "nextCategoryList": [
+        {
+          "categoryId": "11",
+          "categoryName": "商品分类11",
+          "nextCategoryList": [
+            {
+              "categoryId": "111",
+              "categoryName": "商品分类111",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "112",
+              "categoryName": "商品分类112",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "113",
+              "categoryName": "商品分类113",
+              "nextCategoryList": []
+            }
+          ]
+        },
+        {
+          "categoryId": "12",
+          "categoryName": "商品分类12",
+          "nextCategoryList": [
+            {
+              "categoryId": "121",
+              "categoryName": "商品分类121",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "122",
+              "categoryName": "商品分类122",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "123",
+              "categoryName": "商品分类133",
+              "nextCategoryList": []
+            }
+          ]
+        },
+        {
+          "categoryId": "13",
+          "categoryName": "商品分类13",
+          "nextCategoryList": [
+            {
+              "categoryId": "131",
+              "categoryName": "商品分类131",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "132",
+              "categoryName": "商品分类132",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "133",
+              "categoryName": "商品分类133",
+              "nextCategoryList": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "2",
+      "categoryName": "商品分类2",
+      "nextCategoryList": [
+        {
+          "categoryId": "21",
+          "categoryName": "商品分类21",
+          "nextCategoryList": [
+            {
+              "categoryId": "211",
+              "categoryName": "商品分类211",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "212",
+              "categoryName": "商品分类212",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "213",
+              "categoryName": "商品分类213",
+              "nextCategoryList": []
+            }
+          ]
+        },
+        {
+          "categoryId": "22",
+          "categoryName": "商品分类22",
+          "nextCategoryList": [
+            {
+              "categoryId": "221",
+              "categoryName": "商品分类221",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "222",
+              "categoryName": "商品分类222",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "223",
+              "categoryName": "商品分类233",
+              "nextCategoryList": []
+            }
+          ]
+        },
+        {
+          "categoryId": "23",
+          "categoryName": "商品分类23",
+          "nextCategoryList": [
+            {
+              "categoryId": "231",
+              "categoryName": "商品分类231",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "232",
+              "categoryName": "商品分类232",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "233",
+              "categoryName": "商品分类233",
+              "nextCategoryList": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "3",
+      "categoryName": "商品分类3",
+      "nextCategoryList": [
+        {
+          "categoryId": "31",
+          "categoryName": "商品分类31",
+          "nextCategoryList": [
+            {
+              "categoryId": "311",
+              "categoryName": "商品分类311",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "312",
+              "categoryName": "商品分类312",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "313",
+              "categoryName": "商品分类313",
+              "nextCategoryList": []
+            }
+          ]
+        },
+        {
+          "categoryId": "32",
+          "categoryName": "商品分类32",
+          "nextCategoryList": [
+            {
+              "categoryId": "321",
+              "categoryName": "商品分类321",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "322",
+              "categoryName": "商品分类322",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "323",
+              "categoryName": "商品分类333",
+              "nextCategoryList": []
+            }
+          ]
+        },
+        {
+          "categoryId": "33",
+          "categoryName": "商品分类33",
+          "nextCategoryList": [
+            {
+              "categoryId": "331",
+              "categoryName": "商品分类331",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "332",
+              "categoryName": "商品分类332",
+              "nextCategoryList": []
+            },
+            {
+              "categoryId": "333",
+              "categoryName": "商品分类333",
+              "nextCategoryList": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/2/22
+ * Time: 17:38
+ */
+.fei-sider{
+    width: 180px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #232E29;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+.fei-sider::-webkit-scrollbar {
+    display: none;
+}
+.fei-sider .ant-layout-sider, .fei-sider .ant-menu-root, .fei-sider .ant-menu-sub{
+    background: #232E29;
+    color: white;
+}
+.fei-sider .ant-menu-submenu-title:hover, .fei-sider .ant-menu-item:hover{
+    color: #03A861;
+}
+.fei-sider .ant-menu-item-selected{
+    background: #34423C!important;
+    color: #03A861;
+    border-left: 3px solid #03A861;
+}
+.fei-sider .ant-menu-inline .ant-menu-item{
+    width: 100%!important;
+}
+.fei-sider .ant-menu-inline .ant-menu-item::after{
+    border: none;
+}
+.fei-sider .ant-menu-item > a{
+    color: white;
+}
+.fei-sider .ant-menu-item > a:hover{
+    color: #03A861;
+}
+.fei-sider .ant-menu-item-selected > a, .fei-sider .ant-menu-item-selected > a:hover{
+    color: #03A861;
+}

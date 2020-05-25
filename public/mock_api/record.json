@@ -1,0 +1,120 @@
+{
+  "pageNum": 2,
+  "pageSize": 5,
+  "totalNum": 100,
+  "settlement":{
+    "withdrawPrice":20000.00,
+    "canWithdraw":10000.00
+  },
+  "data": [
+    {
+      "key": 0,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "1"
+    },
+    {
+      "key": 1,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "2"
+    },
+    {
+      "key": 2,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "0"
+    },
+    {
+      "key": 3,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "1"
+    },
+    {
+      "key": 4,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "2"
+    },{
+      "key": 5,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "1"
+    },
+    {
+      "key": 6,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "2"
+    },
+    {
+      "key": 7,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "1"
+    },
+    {
+      "key": 8,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "2"
+    },
+    {
+      "key": 9,
+      "idNum": "1111111111",
+      "date": 1551343066092,
+      "cardNum": "12121212",
+      "price": "200",
+      "procedure": "2",
+      "realityMoney": "1000",
+      "bank": "招商银行7418",
+      "type": "1"
+    }
+  ]
+}

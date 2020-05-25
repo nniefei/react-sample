@@ -1,0 +1,38 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/2/27
+ * Time: 15:32
+ */
+.fei-orderdetail {
+  padding: 0 20px;
+  height: auto;
+  width: 100%; }
+  .fei-orderdetail .detail-block {
+    background: white;
+    padding: 40px 20px;
+    width: inherit;
+    height: inherit; }
+    .fei-orderdetail .detail-block > div {
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 15px; }
+    .fei-orderdetail .detail-block .item-title {
+      height: 36px;
+      line-height: 36px; }
+    .fei-orderdetail .detail-block .item-content {
+      color: #666;
+      font-size: 14px;
+      height: 36px;
+      line-height: 36px;
+      font-weight: normal; }
+      .fei-orderdetail .detail-block .item-content .price {
+        color: #FB4818;
+        font-size: 16px; }
+    .fei-orderdetail .detail-block .deal-type {
+      color: #03A861;
+      font-size: 20px;
+      font-weight: normal; }
+
+/*# sourceMappingURL=style.css.map */

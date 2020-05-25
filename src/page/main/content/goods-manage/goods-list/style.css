@@ -1,0 +1,55 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/3/14
+ * Time: 17:05
+ */
+.fei-goodslist {
+  padding: 0 20px;
+  height: 100%;
+  width: 100%; }
+  .fei-goodslist .search-box {
+    background: white;
+    padding: 30px 20px;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px; }
+    .fei-goodslist .search-box .tab-btn {
+      color: #03A861;
+      background: #fff;
+      border: none;
+      outline: none;
+      box-shadow: none; }
+    .fei-goodslist .search-box .tab-btn-selected {
+      background: #03A861;
+      color: #fff;
+      border: none;
+      outline: none;
+      box-shadow: none; }
+    .fei-goodslist .search-box .ant-divider, .fei-goodslist .search-box .ant-divider-vertical {
+      height: 100%;
+      margin: 0; }
+    .fei-goodslist .search-box .ant-form-item, .fei-goodslist .search-box .tab {
+      margin-bottom: 15px; }
+      .fei-goodslist .search-box .ant-form-item .ant-form-item-label, .fei-goodslist .search-box .tab .ant-form-item-label {
+        text-align: left;
+        font-size: 14px;
+        color: #666; }
+    .fei-goodslist .search-box .range-input-left:after {
+      content: '-';
+      position: absolute;
+      padding-left: 9px; }
+  .fei-goodslist .search-list {
+    background: white;
+    padding: 0 0 30px 0;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px; }
+    .fei-goodslist .search-list table > thead > tr > th:nth-child(1) {
+      display: none; }
+    .fei-goodslist .search-list table > thead > tr > th:nth-child(2) {
+      text-align: left; }
+
+/*# sourceMappingURL=style.css.map */

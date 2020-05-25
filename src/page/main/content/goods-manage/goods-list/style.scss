@@ -1,0 +1,72 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/3/14
+ * Time: 17:05
+ */
+.fei-goodslist{
+  padding: 0 20px;
+  height: 100%;
+  width: 100%;
+
+  .search-box{
+    background: rgba(255,255,255,1);
+    padding: 30px 20px;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+
+    .tab-btn{
+      color: #03A861;
+      background: #fff;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+    .tab-btn-selected{
+      background: #03A861;
+      color: #fff;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    .ant-divider, .ant-divider-vertical{
+      height: 100%;
+      margin: 0;
+    }
+
+    .ant-form-item, .tab{
+      margin-bottom: 15px;
+
+      .ant-form-item-label{
+        text-align: left;
+        font-size: 14px;
+        color: #666;
+      }
+    }
+
+    .range-input-left:after{
+      content: '-';
+      position: absolute;
+      padding-left: 9px;
+    }
+  }
+
+  .search-list{
+    background: rgba(255,255,255,1);
+    padding: 0 0 30px 0;
+    font-size: 12px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+
+    table>thead>tr>th:nth-child(1){
+      display: none;
+    }
+    table>thead>tr>th:nth-child(2){
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "pageNum": 2,
+  "pageSize": 5,
+  "totalNum": 100,
+  "settlement":{
+    "totalTurnover":189900.123,
+    "monthTurnover":8679.00,
+    "canSettled":20000.00,
+    "canWithdraw":10000.00,
+    "freeze":50000.00
+  },
+  "data": [
+    {
+      "key": 0,
+      "idNum": "1111111111",
+      "data": 1551343066092,
+      "cardNum": "12121212",
+      "paidPrice": "200",
+      "paidType": "1",
+      "dealType": "1",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 1,
+      "idNum": "222222222222",
+      "data": 1551343056092,
+      "cardNum": "23232323",
+      "paidPrice": "200",
+      "paidType": "2",
+      "dealType": "2",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 2,
+      "idNum": "333333333333",
+      "data": 1551343065092,
+      "cardNum": "3434343434",
+      "paidPrice": "200",
+      "paidType": "3",
+      "dealType": "1",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 3,
+      "idNum": "444444444444",
+      "data": 1551343166092,
+      "cardNum": "565656565656",
+      "paidPrice": "200",
+      "paidType": "4",
+      "dealType": "2",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 4,
+      "idNum": "5555555555555",
+      "data": 1551343366092,
+      "cardNum": "67676767676767",
+      "paidPrice": "200",
+      "paidType": "1",
+      "dealType": "1",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },{
+      "key": 5,
+      "idNum": "66666666666666666",
+      "data": 1551343066092,
+      "cardNum": "12121212",
+      "paidPrice": "200",
+      "paidType": "1",
+      "dealType": "1",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 6,
+      "idNum": "7777777777777777",
+      "data": 1551343056092,
+      "cardNum": "23232323",
+      "paidPrice": "200",
+      "paidType": "2",
+      "dealType": "2",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 7,
+      "idNum": "888888888888888",
+      "data": 1551343065092,
+      "cardNum": "3434343434",
+      "paidPrice": "200",
+      "paidType": "3",
+      "dealType": "1",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 8,
+      "idNum": "999999999999999",
+      "data": 1551343166092,
+      "cardNum": "565656565656",
+      "paidPrice": "200",
+      "paidType": "4",
+      "dealType": "2",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    },
+    {
+      "key": 9,
+      "idNum": "0000000000000000",
+      "data": 1551343366092,
+      "cardNum": "67676767676767",
+      "paidPrice": "200.127",
+      "paidType": "1",
+      "dealType": "1",
+      "phone": "13333333333",
+      "productname": "商品名称",
+      "buyername": "卖家名称"
+    }
+  ]
+}

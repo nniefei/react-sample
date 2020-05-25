@@ -1,0 +1,82 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/3/21
+ * Time: 15:40
+ */
+.store-info-box {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    .form-box {
+        padding: 20px;
+        background: white;
+
+        .ant-form-item{
+            margin-bottom: 12px;
+        }
+
+        .form-title{
+            font-size: 16px;
+        }
+
+        .form-content{
+            padding-top: 20px;
+
+            .dynamic-delete-button {
+                cursor: pointer;
+                position: relative;
+                top: 4px;
+                left: 15px;
+                font-size: 24px;
+                color: #999;
+                transition: all .3s;
+            }
+            .dynamic-delete-button:hover {
+                color: #777;
+            }
+            .dynamic-delete-button[disabled] {
+                cursor: not-allowed;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .store-location {
+        margin-top: 20px;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        background: white;
+
+        .location-title{
+            font-size: 16px;
+        }
+
+        .form-content{
+            padding-top: 20px;
+
+            .dynamic-delete-button {
+                cursor: pointer;
+                position: relative;
+                top: 4px;
+                left: 15px;
+                font-size: 24px;
+                color: #999;
+                transition: all .3s;
+            }
+            .dynamic-delete-button:hover {
+                color: #777;
+            }
+            .dynamic-delete-button[disabled] {
+                cursor: not-allowed;
+                opacity: 0.5;
+            }
+        }
+
+        .action-bar{
+            padding-bottom: 80px;
+        }
+    }
+}

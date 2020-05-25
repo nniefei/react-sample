@@ -1,0 +1,49 @@
+/**
+ * Created by WebStorm.
+ * User: FEI
+ * Date: 2019/2/27
+ * Time: 15:32
+ */
+.fei-orderdetail{
+  padding: 0 20px;
+  height: auto;
+  width: 100%;
+
+  .detail-block{
+    background: white;
+    padding: 40px 20px;
+    width: inherit;
+    height: inherit;
+
+    >div{
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .item-title{
+      height: 36px;
+      line-height: 36px;
+    }
+
+    .item-content{
+      color: #666;
+      font-size: 14px;
+      height: 36px;
+      line-height: 36px;
+      font-weight: normal;
+
+      .price{
+        color: #FB4818;
+        font-size: 16px;
+      }
+    }
+
+    .deal-type{
+      color: #03A861;
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+}
