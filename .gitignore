@@ -21,7 +21,10 @@
 # scss
 /sass-cache
 .css
-.css.map
+.css.
+
+# config
+/.idea
 
 npm-debug.log*
 yarn-debug.log*
