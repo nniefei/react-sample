@@ -19,9 +19,9 @@
 .env.production.local
 
 # scss
-/sass-cache
+/.sass-cache
 .css
-.css.
+.css.map
 
 # config
 /.idea
