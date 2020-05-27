@@ -13,7 +13,7 @@ const uploadImg = (file) => {
 	formFile.append('file', file, file.name)
 	return FEI_HTTP({
 		url: UPLOAD.UPLOAD_FILE,
-		method: METHOD_TYPE.POST,
+		method: METHOD_TYPE.GET,
 		data: formFile
 	})
 }

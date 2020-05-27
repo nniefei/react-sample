@@ -10,7 +10,6 @@ import styled from 'styled-components'
 import PropType from 'prop-types'
 import loadingGif from '../static/image/loading.gif'
 import * as actionCreators from '../page/store/creators'
-import feiEmitter from '../util/fei-event'
 import feiEvent from './fei-event'
 
 const LoadingWrapper = styled.div.attrs((props) => (props.showLoading ? '' : {hidden: true}))`
@@ -54,13 +53,13 @@ class Loading extends Component {
 
 	componentDidMount () {
 		const { changeLoadingFlag } = this.props
-		this.eventEmitter = feiEmitter.addListener('CHANGE_LOADING_FLAG', (flag) => {
+		feiEvent.addListener('CHANGE_LOADING_FLAG', (flag) => {
 			changeLoadingFlag(flag)
 		})
 	}
 
 	componentWillUnmount () {
-		feiEmitter.removeListener(this.eventEmitter)
+		feiEvent.removeAllListeners(['CHANGE_LOADING_FLAG'])
 	}
 
 	render () {

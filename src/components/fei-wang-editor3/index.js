@@ -84,8 +84,8 @@ const dispatch2Props = () => {
 				customUploadImg: function (files, insert) {   // 自定义的图片上传功能
 					files.map(file => {
 						uploadImg(file).then(res => {
-							if (res.result === 'success' && res.data) {
-								insert(res.data.resouceUrl)
+							if (res && res.resouceUrl) {
+								insert(res.resouceUrl)
 							} else {
 								FeiNotify.error({msg: JSON.stringify(res)})
 							}

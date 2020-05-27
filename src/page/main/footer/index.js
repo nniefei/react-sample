@@ -40,10 +40,10 @@ const FeiFoot = () => (
 	<FootWrapperNearBy>
 		<FootLinkList>
 			<Link to="/main" style={{color: '#999'}}>首页</Link><Divider style={{margin: '0 30px'}} type="vertical" />
-			<Link style={{color: '#999'}}>XXX</Link><Divider style={{margin: '0 30px'}} className="split-line" type="vertical" />
-			<Link style={{color: '#999'}}>XXX</Link><Divider style={{margin: '0 30px'}} className="split-line" type="vertical" />
-			<Link style={{color: '#999'}}>XXX</Link><Divider style={{margin: '0 30px'}} className="split-line" type="vertical" />
-			<Link style={{color: '#999'}}>XXX</Link>
+			<Link to="/main" style={{color: '#999'}}>XXX</Link><Divider style={{margin: '0 30px'}} className="split-line" type="vertical" />
+			<Link to="/main" style={{color: '#999'}}>XXX</Link><Divider style={{margin: '0 30px'}} className="split-line" type="vertical" />
+			<Link to="/main" style={{color: '#999'}}>XXX</Link><Divider style={{margin: '0 30px'}} className="split-line" type="vertical" />
+			<Link to="/main" style={{color: '#999'}}>XXX</Link>
 		</FootLinkList>
 		<FootInfo>XXX号 XXX有限公司</FootInfo>
 	</FootWrapperNearBy>

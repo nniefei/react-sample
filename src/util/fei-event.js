@@ -6,4 +6,7 @@
  */
 import { EventEmitter } from 'events'
 
-export default new EventEmitter()
+class CustomEvemtEmitter extends EventEmitter {
+}
+
+export default new CustomEvemtEmitter()
