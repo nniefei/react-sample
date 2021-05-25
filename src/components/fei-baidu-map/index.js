@@ -62,7 +62,7 @@ const dispatch2Props = (dispatch) => {
 	return {
 		// 初始化地图
 		initMap: (target) => {
-			const { BMap, BMapLib, BMAP_STATUS_SUCCESS, BMAP_ANCHOR_TOP_RIGHT, BMAP_DRAWING_MARKER } = window
+			const { BMap, BMAP_STATUS_SUCCESS } = window
 			// 创建地图实例
 			const feiBaiduMap = new BMap.Map(target.mapRef.current)
 			target.feiBaiduMap = feiBaiduMap
@@ -74,7 +74,7 @@ const dispatch2Props = (dispatch) => {
 						if (this.getStatus() === BMAP_STATUS_SUCCESS){
 							console.log(r.point)
 							// 标记位置
-							// target.props.makeMark(target, r.point)  // 地图默认加载时，不标记位置
+							target.props.makeMark(target, r.point)  // 地图默认加载时，不标记位置
 							resolve(r.point)
 						}
 						else {

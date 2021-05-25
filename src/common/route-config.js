@@ -6,7 +6,7 @@
  */
 
 import * as routes from './route-list'
-import { ROUTE_TYPE } from '../common/constant'
+import { ROUTE_TYPE } from './constant'
 
 const routeConfigList = [
 	{

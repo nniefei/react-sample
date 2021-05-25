@@ -19,7 +19,7 @@ let id = 0
 class StoresInfoForm extends Component {
 	render () {
 		const { getFieldDecorator, getFieldValue } = this.props.form
-		const { addPhone, removePhone, commitInfo, saveInfo, locationCall, broadcast, testInput } = this.props
+		const { addPhone, removePhone, commitInfo, saveInfo, locationCall, testInput } = this.props
 		getFieldDecorator('keys', { initialValue: [] })
 		const keys = getFieldValue('keys')
 		const formItems = keys.map((k) => (

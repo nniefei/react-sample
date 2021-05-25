@@ -37,7 +37,7 @@ const StoresOverview = () => (
 				</StoresOverviewTitle>
 				<StoresOverviewTitle className="stores-overview-location">
 					<StoresOverviewTitleLocation/>
-					地理位置：广州市天河区天河直街160号天河汇商业广场首层北2号铺
+					地理位置：广州市天河区天xxx街
 				</StoresOverviewTitle>
 			</Col>
 			<Col span={4}>
